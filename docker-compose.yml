@@ -1,6 +1,6 @@
 services:
   app:
-    image: 4erk/app:dev
+    image: 4erk/swoole-app:dev
     environment:
       AUTORELOAD_PROGRAMS: "swoole"
       AUTORELOAD_ANY_FILES: 0
