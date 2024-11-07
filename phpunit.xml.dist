@@ -3,13 +3,11 @@
          xsi:noNamespaceSchemaLocation="vendor/phpunit/phpunit/phpunit.xsd"
          bootstrap="vendor/autoload.php"
          cacheDirectory=".phpunit.cache"
-         requireCoverageMetadata="false"
          beStrictAboutCoverageMetadata="true"
          beStrictAboutOutputDuringTests="true"
          executionOrder="random"
          failOnRisky="true"
          failOnWarning="true"
-         stopOnFailure="false"
          colors="true"
          displayDetailsOnPhpunitDeprecations="true"
 >
@@ -25,7 +23,7 @@
 
     <source>
         <include>
-            <directory suffix=".php">./src</directory>
+            <directory>./src</directory>
         </include>
     </source>
 </phpunit>
