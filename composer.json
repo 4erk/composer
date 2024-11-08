@@ -3,6 +3,7 @@
     "description": "description",
     "minimum-stability": "stable",
     "license": "proprietary",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "4erk",
@@ -15,7 +16,7 @@
     "require-dev": {
         "maglnet/composer-require-checker": "^4.13.0",
         "phpunit/phpunit": "^10.5.38",
-        "rector/rector": "^1.2.9",
+        "rector/rector": "^1.2.10",
         "roave/infection-static-analysis-plugin": "^1.35",
         "spatie/phpunit-watcher": "^1.24.0",
         "vimeo/psalm": "^5.26.1"
